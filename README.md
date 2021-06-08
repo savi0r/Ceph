@@ -11,6 +11,10 @@ Ceph's architectural philosophy:
 
 The foundation of Ceph is objects. Any flavor of data, be it a block, object, or file, is represented by objects within the Ceph backend. Object storage is the flexible solution for unstructured data storage needs today and in the future
 
+Ceph can provide a unified storage solution in a way that it provides block storage , file storage and object storage
+
+![storage](img/1.jpeg)
+
 <h2>Ceph installation using ceph-ansible:</h2>
 
 It is supposed that you are using Centos8 as your base operating system.
