@@ -161,7 +161,7 @@ cp site.yml.sample site.yml
 ansible-playbook -i hosts -u centos site.yml
 ```
 
-<h2>Configuring ceph client and ceph block storage(RBD):</h2>
+<h2>Configuring ceph client :</h2>
 
 In order to create rbd first we need to configure a client ,ssh to client and check for RBD support in the kernel
 
