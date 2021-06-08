@@ -1,3 +1,16 @@
+<h2>Ceph intro:</h2>
+Ceph is an open source project that provides a solution for *software-defined*, *network-available* storage with high performance and *no single point of failure*. It is designed to be highly scalable to the exabyte level and beyond while running on general-purpose commodity hardware.
+To learn more about what is ceph and how useful it is let's review it's philosophy
+Ceph's architectural philosophy:
+
+* Every component must be scalable
+* No individual process, server, or other component can be a single point of failure
+* The solution must be software-based, open source, and adaptable
+* Ceph software should run on readily available commodity hardware without vendor lock-in
+* Everything must be self-manageable wherever possible
+
+The foundation of Ceph is objects. Any flavor of data, be it a block, object, or file, is represented by objects within the Ceph backend. Object storage is the flexible solution for unstructured data storage needs today and in the future
+
 <h2>Ceph installation using ceph-ansible:</h2>
 
 It is supposed that you are using Centos8 as your base operating system.
